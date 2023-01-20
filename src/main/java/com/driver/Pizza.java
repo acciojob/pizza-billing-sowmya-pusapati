@@ -86,7 +86,7 @@ public class Pizza {
             if (isTakeway)
                 this.bill += "Paperbag Added: " + "20" + "\n";
 
-            this.bill += "Total: " + this.price+"\n";
+            this.bill += "Total Price: " + this.price+"\n";
         }
             return this.bill;
 
